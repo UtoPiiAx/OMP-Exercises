@@ -23,3 +23,22 @@ class Office extends Room{
         office.setFurniture(new Furniture[] { office.getChairs()[0], office.getDesks()[0], new Chair ()});
     }
 }
+
+class Room {
+    protected Furniture[] furniture;
+
+    public Furniture[] getFurniture() {
+        return furniture;
+    }
+    public void setFurniture(Furniture[] furniture) {
+        this.furniture = furniture;
+    }
+}
+interface Furniture {
+}
+class Chair implements Furniture{
+}
+class Table implements Furniture{
+}
+class Desk extends Table{
+}
