@@ -1,5 +1,3 @@
-package Aufgabe1;
-
 public class EmptyValueException extends Exception{
 
     public EmptyValueException () {
