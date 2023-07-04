@@ -1,5 +1,3 @@
-package Aufgabe1;
-
 class Util {
 
 	// liefert die kleinste Zahl des uebergebenen Arrays
