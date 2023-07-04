@@ -1,5 +1,3 @@
-package Aufgabe1;
-
 public class NegativeValueException extends Exception{
     public NegativeValueException () {
         super ();
