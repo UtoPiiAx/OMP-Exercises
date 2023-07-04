@@ -1,5 +1,3 @@
-package Aufgabe1;
-
 public class NullValueException extends Exception{
     public NullValueException () {
         super ();
